@@ -1,0 +1,84 @@
+/* first is content common to all pages */
+* {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #99CCFF;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:active {
+  color: red;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: solid black 1px;
+}
+.footer a {
+  display: inline-block;
+  width: 262px;
+  text-align: center;
+}
+
+/* ******************************************************* */
+/* for for content specific to the index page              */
+.centerpiece img {
+  width: 600px;
+  border: solid black 2px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ******************************************************* */
+/* for for content specific to the projects page           */
+.project img {
+  width: 100px;
+  display: inline-block;
+  float: left;
+  border-radius: 5px;
+}
+
+.project h2,
+.project p {
+  margin-left: 130px;
+}
+
+/* ********************************************************** */
+/* the below content is shared by the contact and about pages */
+.details p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.details h3 {
+  margin-bottom: 5px;
+}
+
+.details img {
+  float: right;
+  width: 170px;
+  border-radius: 5px;
+  border: solid black 1px;
+}
+
+/* ******************************************************* */
+/* for for content specific to the about page              */
